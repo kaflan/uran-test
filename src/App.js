@@ -1,31 +1,20 @@
-import React, { Component} from 'react';
-import FacebookProvider, { Login } from 'react-facebook';
+import React, { Component } from 'react';
+import { Provider } from "react-redux";
+import store from './redux';
+import './App.css';
+import { ConnectedRouter } from 'react-router-redux';
+import history from './history';
+import Root from "./components/Root";
 
-const appId = 2002265576700045;
-// const clientSecret = "54f0549c828323eff3523768042b1736";
 
-export default class Example extends Component {
-
-
-    handleResponse = (data) => {
-        console.log(data);
-    };
-
-    handleError = (error) => {
-        this.setState({ error });
-    };
-
+export default class App extends Component {
     render() {
         return (
-            <FacebookProvider appId={appId}>
-                <Login
-                    scope="email"
-                    onResponse={this.handleResponse}
-                    onError={this.handleError}
-                >
-                    <span>Login via Facebook</span>
-                </Login>
-            </FacebookProvider>
+            <Provider store={store}>
+                <ConnectedRouter history={history}>
+                    <Root/>
+                </ConnectedRouter>
+            </Provider>
         );
     }
 }
