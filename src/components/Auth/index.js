@@ -1,38 +1,35 @@
 import React, { Component} from 'react';
-import FacebookProvider, { Login } from 'react-facebook';
-import { Button, Icon } from 'antd';
 import { connect } from 'react-redux';
+import FacebookLogin from 'react-facebook-login';
 
 import "./login.css";
 import {signIn} from "../../ducks/auth";
-
 class Auth extends Component {
-    handleResponse = ({profile, tokenDetail}) => {
-        // console.log(profile, tokenDetail);
-        this.props.signIn(profile, tokenDetail);
+    handleResponse = (data) => {
+        const profile = {
+            email: data.email,
+            name: data.name,
+            userID: data.userID,
+            accessToken: data.accessToken,
+            picture: data.picture.url
+
+        };
+        // const {profile, tokenDetail} = data;
+        this.props.signIn(profile);
     };
 
-    handleError = (error) => {
-        this.setState({ error });
-    };
 
     render() {
-
         const appId = 2002265576700045;
-        const size = "large";
         return (
             <div className="login-button">
-                <FacebookProvider appId={appId} >
-                    <Login
-                        scope="email"
-                        onResponse={this.handleResponse}
-                        onError={this.handleError}
-                    >
-                        <Button  type="primary"  size={size}>
-                            Login via Facebook <Icon type="facebook" />
-                        </Button>
-                    </Login>
-                </FacebookProvider>
+                <FacebookLogin
+                    appId={appId}
+                    autoLoad={true}
+                    fields="name,email,picture, id"
+                    scope="public_profile"
+                    callback={this.handleResponse}
+                />
             </div>
 
         );
