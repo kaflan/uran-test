@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98ef40ef-50fa-45c2-9548-2c4057f0ad07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Helpers/ProtecedRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AlbumView/Album.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AlbumView/NavigationMenu/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AlbumView/NavigationMenu/navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/albums.js" afterDir="false" />
+    <list default="true" id="98ef40ef-50fa-45c2-9548-2c4057f0ad07" name="Default" comment="add album list">
+      <change afterPath="$PROJECT_DIR$/src/components/AlbumView/AlbumList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AlbumView/AlbumListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ducks/albumPhotos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AlbumView/Album.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AlbumView/Album.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Root.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/saga.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,11 +45,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Album.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Root.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Root.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Album.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AlbumView/Album.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+            <state relative-caret-position="378">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="albumPhotos.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ducks/albumPhotos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="48" selection-start-column="48" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlbumListItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AlbumView/AlbumListItem.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="AlbumList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AlbumView/AlbumList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtecedRoute.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Helpers/ProtecedRoute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,8 +110,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="288">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -90,8 +133,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -117,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/components/AlbumView/Menu.js" />
         <option value="$PROJECT_DIR$/src/Helpers/ProtecedRoute.js" />
         <option value="$PROJECT_DIR$/src/components/AlbumView/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/Root.js" />
         <option value="$PROJECT_DIR$/src/components/AlbumView/NavigationMenu/navigation.css" />
         <option value="$PROJECT_DIR$/src/components/AlbumView/NavigationMenu/Navigation.js" />
         <option value="$PROJECT_DIR$/src/ducks/auth.js" />
@@ -125,7 +167,14 @@
         <option value="$PROJECT_DIR$/src/redux/saga.js" />
         <option value="$PROJECT_DIR$/src/components/Auth/index.js" />
         <option value="$PROJECT_DIR$/src/ducks/albums.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/AlbumList.js" />
+        <option value="$PROJECT_DIR$/src/components/AlbumView/AlbumListItem.js" />
+        <option value="$PROJECT_DIR$/src/components/AlbumView/AlbumList.js" />
+        <option value="$PROJECT_DIR$/src/components/Root.js" />
         <option value="$PROJECT_DIR$/src/components/AlbumView/Album.js" />
+        <option value="$PROJECT_DIR$/src/ducks/albomPhotos.js" />
+        <option value="$PROJECT_DIR$/src/ducks/albumPhotos.js" />
       </list>
     </option>
   </component>
@@ -194,14 +243,6 @@
               <item name="uran-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="uran-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AlbumView" type="462c0819:PsiDirectoryNode" />
-              <item name="NavigationMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uran-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uran-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ducks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,6 +276,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/AlbumView" />
       <recent name="$PROJECT_DIR$/src/components/AlbumView/NavigationMenu" />
     </key>
   </component>
@@ -305,7 +347,7 @@
       <workItem from="1523739645550" duration="3489000" />
       <workItem from="1523812762943" duration="606000" />
       <workItem from="1523814402238" duration="5559000" />
-      <workItem from="1524325463637" duration="18008000" />
+      <workItem from="1524325463637" duration="21486000" />
     </task>
     <task id="LOCAL-00001" summary="add mire files">
       <created>1523820179804</created>
@@ -314,11 +356,46 @@
       <option name="project" value="LOCAL" />
       <updated>1523820179805</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add album list">
+      <created>1524353749352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524353749353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add album list">
+      <created>1524353784448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524353784448</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add album list">
+      <created>1524353807333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524353807333</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add album list">
+      <created>1524353860050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524353860050</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add album list">
+      <created>1524353904397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524353904397</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30583000" />
+    <option name="totallyTimeSpent" value="34061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -372,7 +449,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add mire files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mire files" />
+    <MESSAGE value="add album list" />
+    <option name="LAST_COMMIT_MESSAGE" value="add album list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,23 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/ProtecedRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="19" selection-start-line="5" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AlbumView/NavigationMenu/navigation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -679,16 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ducks/albums.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -709,10 +760,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AlbumView/NavigationMenu/Navigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/ProtecedRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -729,13 +807,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AlbumView/Album.js">
+    <entry file="file://$PROJECT_DIR$/src/components/AlbumView/AlbumList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        <state relative-caret-position="162">
+          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AlbumView/AlbumListItem.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AlbumView/Album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/albumPhotos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
         </state>
       </provider>
     </entry>

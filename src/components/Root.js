@@ -9,7 +9,7 @@ export default class Root extends Component {
         return (
             <Switch>
                 <Route path="/" exact component={Auth}/>
-                <PrivateRoute path="/albums" component={Album}/>
+                <PrivateRoute path="/albums" component={Album} />
             </Switch>
         )
     }

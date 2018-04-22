@@ -1,0 +1,2 @@
+const fetchAlbomInfo = (albumId, token) => fetch(`https://graph.facebook.com/v2.12/${albumId}/photos?access_token=${token}&debug=
+all&fields=id%2Cname%2Cheight%2Cpicture&format=json&method=get&pretty=0&suppress_http_code=1`);

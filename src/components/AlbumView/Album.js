@@ -1,9 +1,11 @@
 import React from 'react';
-import {moduleName as auth} from "../../ducks/auth";
 import {connect} from 'react-redux';
 import Navigation from "./NavigationMenu/Navigation";
-import { List, Card } from 'antd';
+import { Route, Switch } from "react-router-dom";
+import {moduleName as auth} from "../../ducks/auth";
 import {moduleName as albumsModule, getAlbums} from "../../ducks/albums";
+import AlbumList from "./AlbumList";
+
 
 class Album extends React.Component {
     componentDidMount() {
@@ -12,19 +14,15 @@ class Album extends React.Component {
     }
     render() {
         const {name, albums} = this.props;
-        console.log("___LOG___albums", albums.length);
+        // console.log("___LOG___albums", albums.length);
         return <div>
             <Navigation/>
             <h1> Welcome, {name}.</h1>
-            <List
-                grid={{ gutter: 16, xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }}
-                dataSource={albums}
-                renderItem={item => (
-                    <List.Item>
-                        <Card title={item.name}>{item.name}</Card>
-                    </List.Item>
-                )}
-            />
+            <Switch>
+                <Route path="/albums" exact  render={() => <AlbumList albums={albums} /> }/>
+                <Route path="/albums/:id" />
+            </Switch>
+
         </div>;
     }
 }
